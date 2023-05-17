@@ -797,7 +797,8 @@ progress {
     flex: 0 0 auto;
     width: 16.66667%; }
   .col-sm-3 {
-    flex: 0 0 auto;
+    top: 150px;
+		left: 300px;
     width: 25%; }
   .col-sm-4 {
     flex: 0 0 auto;
@@ -1651,6 +1652,12 @@ progress {
   margin-bottom: 0.2857rem;
   font-size: 0.857rem;
   color: #5e5873; }
+
+  .form-label1 {
+  margin-bottom: 0.2857rem;
+  font-size: 1.5rem;
+  color: #5e5873; }
+
 
 .col-form-label {
   padding-top: calc(0.571rem + 1px);
@@ -3764,6 +3771,8 @@ fieldset:disabled .btn {
 
 .card {
   position: relative;
+  top: 150px;
+  left: 30px;
   display: flex;
   flex-direction: column;
   min-width: 0;
@@ -3773,13 +3782,10 @@ fieldset:disabled .btn {
   border: 0 solid rgba(34, 41, 47, 0.125);
   border-radius: 0.428rem; }
 
-  .card1 {
+  .cardusuarios {
     position: relative;
     top: 200px;
     left: 300px;
-    padding: 10px;
-    width: 1000px;
-    height: 500px;
     display: flex;
     flex-direction: column;
     min-width: 0;
@@ -3788,6 +3794,7 @@ fieldset:disabled .btn {
     background-clip: border-box;
     border: 0 solid rgba(34, 41, 47, 0.125);
     border-radius: 0.428rem; }
+  
 
 .card > hr {
   margin-right: 0;
@@ -3814,9 +3821,6 @@ fieldset:disabled .btn {
 .card-body {
   flex: 1 1 auto;
   padding: 1.5rem 1.5rem; }
-.card-body1 {
-    flex: 1 1 auto;
-    padding: 3.5rem 1.5rem; }
 
 .card-title {
   margin-bottom: 1.5rem; }

@@ -10,4 +10,9 @@ class ClientesController extends Controller
     {
      return view('clientes.clientes');
     }
+
+    public function cadastrar()
+    {
+     return view('clientes.cadastrar');
+    }
 }

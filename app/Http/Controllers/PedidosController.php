@@ -11,4 +11,9 @@ class PedidosController extends Controller
      return view('pedidos.pedidos');
     }
 
+    public function detalhes()
+    {
+     return view('pedidos.detalhes');
+    }
+
 }

@@ -10,4 +10,9 @@ class BannersController extends Controller
     {
      return view('banners.banners');
     }
+
+    public function criar()
+    {
+     return view('banners.criar');
+    }
 }

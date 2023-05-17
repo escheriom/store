@@ -98,13 +98,8 @@ WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BET
       background-color: #fff;
       border: 1px solid #ccc;
       padding: 10px;
-      width: 1000px;
-      height: 500px;
     }
     button[type="submit"] {
-      position: absolute;
-      top: 330px;
-      left: 20px;
       background-color: #897FF3;
       color: white;
       padding: 10px 20px;
